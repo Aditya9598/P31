@@ -1,0 +1,53 @@
+Certainly! Here's a simple README for your code:
+
+---
+
+# Heart Disease Prediction using Logistic Regression
+
+This Python script utilizes the `LogisticRegression` model from scikit-learn to predict the likelihood of heart disease based on a given set of features. The dataset used is named "Heart Attack Data Set.csv."
+
+## Prerequisites
+
+- Python 3
+- pandas
+- numpy
+- scikit-learn
+
+You can install the required packages using the following:
+
+```bash
+pip install pandas numpy scikit-learn
+```
+
+## How to Use
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your-username/heart-disease-prediction.git
+   cd heart-disease-prediction
+   ```
+
+2. **Run the Script:**
+
+   ```bash
+   python heart_disease_prediction.py
+   ```
+
+   This will load the dataset, perform data analysis, split the data into training and testing sets, train a Logistic Regression model, and predict the likelihood of heart disease for a given input.
+
+3. **Input New Data for Prediction:**
+
+   Modify the `input_data` array with new values for features such as age, sex, blood pressure, etc., and rerun the script to see predictions.
+
+## File Description
+
+- **heart_disease_prediction.py:** Main script file containing the code for data loading, preprocessing, model training, and prediction.
+- **Heart Attack Data Set.csv:** Dataset used for training and testing the model.
+
+## Additional Information
+
+- The dataset should be in CSV format and have columns representing different features related to heart health.
+- The model is a basic logistic regression model; you might consider exploring other models and hyperparameter tuning for better performance.
+
+---
